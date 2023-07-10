@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    height: 130vh;
+    background-image: linear-gradient(rgba(73, 69, 69, 0.3), rgba(44, 42, 42, 0.3)), url('../asset/image/background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-around;
+    background: gray;
+    align-items: center;
+    padding: 5px 0px;
+}
+
+.agency-title-container {
+    display: flex;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul li {
+    margin-left: 10px;
+    list-style: none;
+}
+
+main {}
+
+.agency-title {
+
+    margin-top: 20px;
+    color: white;
+    margin-top: 13%;
+    margin-left: 18%;
+    text-align: center;
+    width: 60%;
+
+}
+
+.title {
+    font-size: 55px;
+
+
+
+}
+
+span {
+    color: rgb(255, 0, 0);
+}
+
+.details {
+    text-align: center;
+
+    margin-top: 10px;
+
+}
+
+.discover-btn {
+    background-color: rgb(251, 41, 5);
+    padding: 10px 15px;
+    border: none;
+    margin-top: 10px;
+}
+
+.hire-btn {
+    padding: 10px 28px;
+    border: none;
+    margin-top: 10px;
+}
+
+.service-con {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.9)), url('../asset/image/footer-bg.png');
+    color: white;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.serv-details{
+width: 50%;
+margin-left: 30px;
+}
+
+.service-img-con {
+   margin-right: 30px;
+}
+
+.service-img {
+    display: flex;
+    gap: 5px;
+
+   
+
+}
+.img-con{
+  background-color: white;
+margin-top: 5px;
+width: 250px;
+height: 250px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.img-ser {
+    width: 100px;
+    height: 100px;
+  
+   
+}
